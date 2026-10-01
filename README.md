@@ -3,6 +3,8 @@
 ## 📋 About
 This is a portfolio for my graphic design work, like logos, posters, social media posts and more.
 
+It's a responsive web design with reusable React components.
+
 ## 🛠️ Made with
 - HTML
 - CSS
