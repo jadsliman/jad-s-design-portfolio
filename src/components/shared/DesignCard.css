@@ -1,0 +1,87 @@
+.review-container .card-container {
+    width: 25%;
+}
+
+.cards-grid .card-container {
+    width: 80%;
+    height: 100%;
+}
+
+.card-container:hover {
+    -webkit-animation: gridCardHover 0.2s ease-in-out forwards;
+    animation: gridCardHover 0.2s ease-in-out forwards;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 5px 10px 15px #aaaaaa;
+    border-radius: 30px;
+    -webkit-animation: gridCardNormal 0.2s ease-in-out forwards;
+    animation: gridCardNormal 0.2s ease-in-out forwards;
+}
+
+.card-image {
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px #aaaaaa;
+
+}
+
+.card-description {
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@-webkit-keyframes gridCardHover {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes gridCardHover {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes gridCardNormal {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes gridCardNormal {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .review-container .card-container {
+        width: 80%;
+        margin: 22px 0;
+    }
+}

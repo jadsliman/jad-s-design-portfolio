@@ -1,0 +1,41 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+}
+
+.contact-info {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-link {
+    margin: 0px 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.contact-link:hover {
+    color: lightblue;
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        font-size: 14px;
+        padding: 0 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-container {
+        height: 8vh;
+    }
+}

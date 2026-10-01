@@ -1,0 +1,17 @@
+.cards-grid {
+    display: grid;
+    padding: 0 35px;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 100px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .cards-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
